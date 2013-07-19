@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.DeezApps.Agenda_Calendar"
+    android:versionCode="2"
+    android:versionName="1.1.5" android:installLocation="auto">
+
+    <uses-sdk android:minSdkVersion="11" />
+
+    <application
+        android:name="com.DeezApps.Agenda_Calendar.CategoryCalendar"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name" >
+        <activity
+            android:name="com.DeezApps.Agenda_Calendar.ManageCategories"
+            android:label="Manage Categories" >
+        </activity>
+        <activity
+            android:name="com.DeezApps.Agenda_Calendar.ModifyCategory"
+            android:label="Edit Category" >
+        </activity>
+        <activity
+            android:name="com.DeezApps.Agenda_Calendar.ViewMonth"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.DeezApps.Agenda_Calendar.AssignIndicators"
+            android:label="Assign Indicators"
+            android:screenOrientation="portrait" >
+        </activity>
+        <activity
+            android:name="com.DeezApps.Agenda_Calendar.ModifyPreferences"
+            android:label="Change Settings" >
+        </activity>
+        <activity
+            android:name="com.DeezApps.Agenda_Calendar.DayAgenda"
+            android:label="Agenda" >
+        </activity>
+    </application>
+
+</manifest>

@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Agenda Calendar</string>
+    <string name="manage_categories_button">Manage Categories</string>
+    <string name="assign_indicators_button">Add/Remove Indicators to Calendar</string>
+    <string name="view_calendar_button">View Calendar</string>
+    <string name="first_run_help_toast">Welcome to your Agenda Calendar! Start by making a new category, by selecting \'Manage Categories\'</string>
+
+    <string-array name="colors_array">
+        <item>Red</item>
+        <item>Yellow</item>
+        <item>Green</item>
+        <item>Blue</item>
+        <item>Purple</item>
+        <item>Gray</item>
+        <item>Cyan</item>
+        <item>Orange</item>
+        <item>Pink</item>
+    </string-array>
+    <string-array name="short_day_names">
+        <item>Mon</item>
+        <item>Tue</item>
+        <item>Wed</item>
+        <item>Thu</item>
+        <item>Fri</item>
+        <item>Sat</item>
+        <item>Sun</item>
+    </string-array>
+
+    <string name="pref_first_day_of_week">first_day_of_week</string>
+    <string name="affirmative">Yes</string>
+    <string name="negative">No</string>
+    <string name="menu_settings">Settings</string>
+    <string name="title_activity_day_agenda">DayAgenda</string>
+
+</resources>

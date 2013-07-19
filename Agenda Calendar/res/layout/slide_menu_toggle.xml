@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="vertical" >
+        <View
+		  android:layout_width="wrap_content"
+		  android:layout_height="50dp">
+		</View>
+        <ToggleButton
+            android:id="@+id/togglebutton"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked"
+            android:textOff="All off"
+            android:textOn="All on"
+            android:checked="true" />
+        <ToggleButton
+            android:id="@+id/togglebutton1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked1"
+            android:checked="true"/>
+        <ToggleButton 
+            android:id="@+id/togglebutton2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked2"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked3"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked4"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked5"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked6"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked7"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked8"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked9"
+            android:checked="true"/>
+        <ToggleButton
+            android:id="@+id/togglebutton10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="onToggleClicked10"
+            android:checked="true"/>
+         
+    </LinearLayout>
+
+</ScrollView>
